@@ -1,0 +1,120 @@
+
+.border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+   
+    
+}
+.img1{
+    border-radius: 80%;
+   
+
+}
+
+.text{
+    font-family: 'Gajraj One';
+    text-align: center;
+    color: white;
+
+}
+.paragraph{
+    text-align: center;
+    color: white;
+    font-family: 'Gajraj One';
+
+}
+
+.text2{
+    text-align: center;
+    color: red;
+    font-family: 'Gajraj One';
+    
+
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gajraj One';
+  
+}
+  
+.animated-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:   red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+    font-size: 1.2rem;
+    border-radius: 3rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.3);
+    font-family: 'Gajraj One';
+}
+  
+.animated-button:hover {
+    background-color: black;
+}
+  
+.animated-button span {
+    position: relative;
+    z-index: 2;
+}
+  
+.animated-button .icon {
+    position: absolute;
+    right: -50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+  
+.animated-button:hover .icon {
+    right: 0;
+}
+  
+.animated-button:hover .icon path {
+    stroke-dashoffset: 0;
+}
+  
+.animated-button .icon path {
+    stroke-dasharray: 50 50;
+    stroke-dashoffset: 50;
+    stroke-width: 2;
+    stroke: #fff;
+    fill: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.albums{
+    color: white;
+    font-family: 'Gajraj One';
+}
+
+.other{
+    color: white;
+    font-family: 'Gajraj One';
+}
+.TechCamp{
+    color: #fff;
+    font-family: 'Gajraj One';
+    
+}
+
+.evolve{
+    color: white;
+    font-family: 'Gajraj One';
+    text-align: center;
+}
+  
